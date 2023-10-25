@@ -3,6 +3,7 @@
 We welcome and encourage contributions to this project in the form of pull requests, submission of issues, and comments on issues.
 
 Contributors are expected to
+
 1. to be respectful and constructive; and
 2. to enforce 1.
 
