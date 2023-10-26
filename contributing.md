@@ -28,7 +28,7 @@ The PUNCH software is mainly developed in Python to ensure it’s open source an
 
 ### Documentation contributions
 
-The SOC has developed user guides and development documents to help users navigate data reduction. As with all projects, those that are close to the project (the SOC) may not be aware as to what is not obvious to an end user. You can help use identify these oversights and improve our documentation. **There are no naive questions or suggestions when it comes to documentation, if it’s not clear to you, it’s not clear to others!**
+The SOC has developed user guides and development documents to help users navigate data reduction. As with all projects, those that are close to the project (the SOC) may not be aware as to what is not obvious to an end user. You can help us identify these oversights and improve our documentation. **There are no naive questions or suggestions when it comes to documentation, if it’s not clear to you, it’s not clear to others!**
 
 ### Example usage contributions
 
