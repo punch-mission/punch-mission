@@ -18,7 +18,7 @@ Additional contributions developed by the user community will be reviewed and di
 
 PEP (Python Enhancement Proposal) 8 is a Style Guide for Python, and SOC produced code tries to conform to these programming standards. Using PEP 8 helps the software conform to common programming standards as well as avoid mistakes and ensure code readability and internal documentation is sufficient to pass code between programmers working in a multi-developer project. Code and documentation contributors are encouraged to follow the PEP 8 standards, and the [PEP 8 style guide for Python](https://www.python.org/dev/peps/pep-0008/) is a great place to learn about this.
 
-As the PUNCH data reduction pipeline leverages several [SunPy](https://sunpy.org) and [AstroPy](https://www.astropy.org) packages the PUNCH software tools generally follow the sunpy coding standards, with specific deviations only as necessary to accommodate the SOC and data processing requirements. SunPy standards are discussed in the [SunPy Developers Guide](https://docs.sunpy.org/en/latest/dev_guide/index.html).
+As the PUNCH data reduction pipeline leverages several [SunPy](https://sunpy.org) and [AstroPy](https://www.astropy.org) packages the PUNCH software tools generally follow the SunPy coding standards, with specific deviations only as necessary to accommodate the SOC and data processing requirements. SunPy standards are discussed in the [SunPy Developers Guide](https://docs.sunpy.org/en/latest/dev_guide/index.html).
 
 We encourage contributors to follow and embrace the PEP 8, SunPy, and Astropy standards to help produce contributions usable by others, interface seamlessly with existing software, and fit in with the overarching solar and heliospheric Python software ecosystem.
 
