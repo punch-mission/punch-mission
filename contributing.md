@@ -37,3 +37,6 @@ Examples are a powerful way that people learn how to use code. The SOC will prov
 ### Sharing Ideas & Suggestions
 
 You do not have to write new code or documentation to contribute. Simply suggesting an idea in our discussions or issues sections on a repository is tremendously helpful.
+
+## Attribution
+This guide borrows from a PyCon talk by Adrienne Lowe, which was adapted by by this project based on its use in the README file for the MetPy project.
