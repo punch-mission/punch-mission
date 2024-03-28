@@ -2,6 +2,7 @@
 
 PUNCH creates its science processing code primarily in Python. We recommend following Python best practices. 
 These can be found in various documents; a good starting point is [the SunPy Developer's Guide](https://docs.sunpy.org/en/latest/dev_guide/index.html). 
+You may find [Python Like You Mean It](https://www.pythonlikeyoumeanit.com/index.html) to be helpful if you're newer to Python. 
 
 ## General tips
 
@@ -46,6 +47,24 @@ When you write a function, include a docstring in the [numpydoc format](https://
 
 In addition to documenting direclty in code, we recommend developing documentation websites with introductory material and examples as a [Sphinx website](https://www.sphinx-doc.org/en/master/). 
 
+### Type Hints
+
+Type hints serve as one form of documentation. [PEP 484](https://peps.python.org/pep-0484/) and [PEP 526](https://peps.python.org/pep-0526/) describe the standards of type annotations. We use type annotations to make it easier for users and developers to understand what the types of variables are as we move them around. They’re simply a guide and don’t actually impact the code at runtime in our codebase. Some people (such as Prefect) use the type annotations to strictly enforce types, i.e. if a variable’s type differs from the type hint the code will not run. [MyPy](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html) provides a helpful cheatsheet that shows examples of different type hints. 
+
+It’s most important that you annotate the types of functions. Here’s an example of a function annotated:
+
+```py
+def streak_correction_matrix(
+  n: int, 
+  exposure_time: float, 
+  readout_line_time: float, 
+  reset_line_time: float
+) -> np.ndarray:
+```
+
+Each function parameter has a type indicated, in this case either integer or float. After the parameter’s closing parenthesis but before the colon, we insert `-> np.ndarray` to indicate that the function returns a numpy array. 
+
+
 ## GitHub practices
 
 We use GitHub to manage our development. This involves sharing code, continuous integration, issue tracking, and more. 
@@ -57,3 +76,22 @@ When you create a GitHub issue be as specific as possible. More specificity enab
 If you're a package maintainer, it is recommended to 
 [set up issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
 to encourage this kind of specificity. 
+
+## NDCube
+
+"[ndcube](https://docs.sunpy.org/projects/ndcube/en/stable/) is a SunPy Project affiliated package designed for handling N-dimensional data cubes described by WCS (World Coordinate System) transformations." 
+
+The PUNCHData object is designed around the NDCube object at its core, with extensions for PUNCH-specific functionality. Each object contains a data array (`np.ndarray` object), a world coordinate system (wcs) (`astropy.wcs` object), an uncertainty / weight array (`np.ndarray` object), an optional mask, meta data, and specified units.
+
+- PUNCHData.data: Primary observation data (2D or multidimensional ndarray
+- PUNCHData.wcs: World coordinate system object describing observation data axes
+- PUNCHData.uncertainty: Measure of pixel uncertainty mapping from the primary data array
+- PUNCHData.weight: Measure of pixel weighting computed from the inverse of the pixel uncertainty
+- PUNCHData.mask: Optional masking array to omit flagged pixels from plotting / visualization
+- PUNCHData.meta: Observation metadata, comprised of keywords and values as a modified astropy FITS header object
+- PUNCHData.unit: Units for the measurements in the primary data array
+
+The PUNCHData object also contains class methods and properties to facilitate interacting with data, including modules for reading / writing data objects, updating history / meta, and viewing data.
+
+For PUNCH, we have implemented our own metadata class called `NormalizedMetadata`. Learn more about this in the `punchbowl` documentation. 
+
