@@ -45,7 +45,7 @@ You are alerted by a failed test if something you did breaks the code. We recomm
 Code without documentation can be as useless as code that doesn't exist and even more frustrating. It is critical to document all code. 
 When you write a function, include a docstring in the [numpydoc format](https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard). 
 
-In addition to documenting direclty in code, we recommend developing documentation websites with introductory material and examples as a [Sphinx website](https://www.sphinx-doc.org/en/master/). 
+In addition to documenting directly in code, we recommend developing documentation websites with introductory material and examples as a [Sphinx website](https://www.sphinx-doc.org/en/master/). 
 
 ### Type Hints
 
@@ -83,7 +83,7 @@ to encourage this kind of specificity.
 
 The PUNCHData object is designed around the NDCube object at its core, with extensions for PUNCH-specific functionality. Each object contains a data array (`np.ndarray` object), a world coordinate system (wcs) (`astropy.wcs` object), an uncertainty / weight array (`np.ndarray` object), an optional mask, meta data, and specified units.
 
-- PUNCHData.data: Primary observation data (2D or multidimensional ndarray
+- PUNCHData.data: Primary observation data (2D or multidimensional ndarray)
 - PUNCHData.wcs: World coordinate system object describing observation data axes
 - PUNCHData.uncertainty: Measure of pixel uncertainty mapping from the primary data array
 - PUNCHData.weight: Measure of pixel weighting computed from the inverse of the pixel uncertainty
