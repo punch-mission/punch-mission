@@ -10,8 +10,8 @@ You may find [Python Like You Mean It](https://www.pythonlikeyoumeanit.com/index
 - There are many options for linters, but we recommend [ruff](https://github.com/astral-sh/ruff). This should be installed as part of a pre-commit step. Your package maintainer should set pre-commit up. 
 - Write tests first. Then, write code to pass the tests. Finally, refactor code for clarity and style.
 - Documentation is critical. Do not put it off. Code without documentation is unsusable by the coommunity and by future you when you forget how it works. 
-- Class names should be nouns
-- Function names should be verbs
+- Class names should be nouns, for example `StarfieldModel`.
+- Function names should be verbs, for example `build_starfield_model`. 
 - Variable names should be descriptive but still concise. No variables named by just a few letters. So `emission_measure` instead of `em` or `emission_measure_cube_for_reprocessing`. 
 - Avoid loops by leveraging `numpy`.
 - Functions have clearly defined and restricted purposes. *A function does one thing instead of many.* For example, a function should generally not do calculations **and** handle I/O.
