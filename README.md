@@ -12,7 +12,7 @@ This repository contains the top-level documents for the PUNCH mission's work on
 - [Development Guide](development.md)
 - [Advice on how to get help](getting_help.md)
 - [Repository Index](repository_index.md)
-- [A project wide requirements.txt that includes all depenencies](requirements.txt)
+- [A project wide requirements.txt that includes all dependencies](requirements.txt)
 
 ## Where can I ask questions?
 
