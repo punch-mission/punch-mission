@@ -30,5 +30,5 @@ sunkit-image==0.5.1
 sunpy==6.0.2
 toml==0.10.2
 tqdm==4.66.5
-waitress==3.0.0
+waitress==3.0.1
 xlrd==2.0.1
