@@ -63,18 +63,5 @@ to encourage this kind of specificity.
 ## NDCube
 
 "[ndcube](https://docs.sunpy.org/projects/ndcube/en/stable/) is a SunPy Project affiliated package designed for handling N-dimensional data cubes described by WCS (World Coordinate System) transformations." 
-
-The PUNCHData object is designed around the NDCube object at its core, with extensions for PUNCH-specific functionality. Each object contains a data array (`np.ndarray` object), a world coordinate system (wcs) (`astropy.wcs` object), an uncertainty / weight array (`np.ndarray` object), an optional mask, meta data, and specified units.
-
-- PUNCHData.data: Primary observation data (2D or multidimensional ndarray)
-- PUNCHData.wcs: World coordinate system object describing observation data axes
-- PUNCHData.uncertainty: Measure of pixel uncertainty mapping from the primary data array
-- PUNCHData.weight: Measure of pixel weighting computed from the inverse of the pixel uncertainty
-- PUNCHData.mask: Optional masking array to omit flagged pixels from plotting / visualization
-- PUNCHData.meta: Observation metadata, comprised of keywords and values as a modified astropy FITS header object
-- PUNCHData.unit: Units for the measurements in the primary data array
-
-The PUNCHData object also contains class methods and properties to facilitate interacting with data, including modules for reading / writing data objects, updating history / meta, and viewing data.
-
-For PUNCH, we have implemented our own metadata class called `NormalizedMetadata`. Learn more about this in the `punchbowl` documentation. 
+NDCubes couple together the data, WCS, uncertainty, and metadata. For PUNCH, we have implemented our own metadata class called `NormalizedMetadata`. Learn more about this in the `punchbowl` documentation. 
 
