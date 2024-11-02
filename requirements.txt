@@ -19,6 +19,7 @@ pylibjpeg[libjpeg, openjpeg]==2.0.1
 pymysql==1.1.1
 python-dateutil==2.9.0
 pyyaml==6.0.2
+quadprog==0.1.12
 remove_starfield==0.0.2
 reproject==0.14.0
 scikit-image==0.24.0
