@@ -13,6 +13,8 @@ This repository contains the top-level documents for the PUNCH mission's work on
 - [Advice on how to get help](getting_help.md)
 - [Repository Index](repository_index.md)
 - [A project wide requirements.txt that pins dependencies](requirements.txt) (This is what we run when producing data.)
+- [Current versions of PUNCH-authored packages used in data production.](requirements_PUNCH.txt)
+
 
 ## Where can I ask questions?
 
