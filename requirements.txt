@@ -32,3 +32,4 @@ sunpy[all]==6.0.3
 toml==0.10.2
 tqdm==4.66.6
 xlrd==2.0.1
+gunicorn==23.0.0
