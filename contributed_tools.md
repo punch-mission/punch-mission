@@ -7,6 +7,6 @@ They are not developed or maintained by the SOC.
 
 | Name  | Link |  Description | Language |
 | ------------- | ------------- |  ---- | ----- | 
-| SPD_MTM | [Zenodo](https://zenodo.org/records/3703168) | Spectral analysis method for identifying periodic signals in geophysical time series | IDL |
-| amtm_signaldetect | [GitHub](https://github.com/hsalinasGIT/amtm_signaldetect) | Python version of SPD_MTM, spectral analysis and identificaiton of periodic signals | Python |
+| SPD_MTM | [Paper](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JA028748), [Zenodo](https://zenodo.org/records/3703168) | Spectral analysis method for identifying periodic signals in geophysical time series | IDL |
+| amtm_signaldetect | [GitHub](https://github.com/hsalinasGIT/amtm_signaldetect), [Zenodo](https://zenodo.org/records/14774371) | Python version of SPD_MTM, spectral analysis and identificaiton of periodic signals | Python |
 
