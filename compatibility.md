@@ -3,7 +3,7 @@
 The PUNCH-related software are not versioned on the same schedule. 
 This list indicates which versions of the PUNCH software have been tested together. 
 To determine which major dependencies (NumPy, SciPy, etc.) are compatiblie, check the [requirements.txt](requirements.txt) 
-file at that date for the working PUNCH environment. 
+file at that commit/date for the working PUNCH environment. 
 
 | Date       | punchbowl | punchpipe | simpunch | regularizepsf | solpolpy | thuban |
 |------------|-----------|-----------|----------|---------------|----------|--------|
