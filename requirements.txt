@@ -35,3 +35,4 @@ toml==0.10.2
 tqdm==4.66.6
 xlrd==2.0.1
 gunicorn==23.0.0
+sunkit_image==0.6.0
