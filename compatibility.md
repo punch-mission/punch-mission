@@ -8,5 +8,5 @@ file at that commit/date for the working PUNCH environment.
 | Date       | punchbowl | punchpipe | simpunch | regularizepsf | solpolpy | thuban |
 |------------|-----------|-----------|----------|---------------|----------|--------|
 | 2025-03-02 | 0.0.8     | 0.0.5     | 0.0.3    | 1.0.2         | 0.4.0    | 0.0.5  |
-|            |           |           |          |               |          |        |
+| 2025-04-02 | 0.0.8     | 0.0.5     | 0.0.3    | 1.0.2         | 0.4.0    | 0.0.5  |
 |            |           |           |          |               |          |        |
