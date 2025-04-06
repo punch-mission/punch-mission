@@ -3,7 +3,6 @@
 The PUNCH software is comprised of several repositories. Since we're not yet to launch, some of these repositories are still under development.
 
 - [punchbowl](https://github.com/punch-mission/punchbowl): science calibration code for PUNCH
-- [punchpipe](https://github.com/punch-mission/punchpipe): automation of `punchbowl` for the SOC
 - [simpunch](https://github.com/punch-mission/simpunch): simulator for PUNCH observations
 - [regularizepsf](https://github.com/punch-mission/regularizepsf): a Python package to regularize point-spread functions in images
 - [solpolpy](https://github.com/punch-mission/solpolpy): a Python package to resolve between different systems of polarization
