@@ -27,7 +27,7 @@ If you have a question or issue specific to a certain repository, please ask in 
 ## Setting up the PUNCH environment
 
 1. Download the [requirements.txt](requirements.txt).
-2. Download the [PUNCH package list](requirements_PUNCH.txt). 
+2. Download the [PUNCH package list](requirements_punch.txt). 
 3. Create a virtual environment in Python using `venv` with `python -m venv .venv`
 4. Activate the virtual environment with `source .venv/bin/activate`.
 5. Install the dependencies with `pip install -r requirements.txt`
