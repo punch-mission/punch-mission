@@ -24,6 +24,10 @@ You can access our [top-level discussions](https://github.com/orgs/punch-mission
 If you have a question or issue specific to a certain repository, please ask in that repository's discussion.
 
 
+## Where can I learn how the PUNCH data reduction works? 
+
+The main documentation is on [ReadTheDocs for punchbowl](https://punchbowl.readthedocs.io/en/latest/index.html). 
+
 ## Setting up the PUNCH environment
 
 1. Download the [requirements.txt](requirements.txt).
