@@ -1,6 +1,6 @@
 # Repository Index
 
-The PUNCH software is comprised of several repositories. Since we're not yet to launch, some of these repositories are still under development.
+The PUNCH software is comprised of several repositories.
 
 - [punchbowl](https://github.com/punch-mission/punchbowl): science calibration code for PUNCH
 - [simpunch](https://github.com/punch-mission/simpunch): simulator for PUNCH observations
