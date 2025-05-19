@@ -1,7 +1,7 @@
 # Welcome to PUNCH
 
 PUNCH, the Polarimeter to UNify the Corona and Heliosphere, is a NASA Small Explorer (SMEX) mission to better understand how the mass and energy of the Sun’s corona become the solar wind that fills the solar system.
-Four suitcase-sized satellites will work together to produce images of the entire inner solar system around the clock. [Learn more here](https://punch.space.swri.edu/).
+Four suitcase-sized satellites work together to produce images of the entire inner solar system around the clock. [Learn more here](https://punch.space.swri.edu/).
 
 ## What's in this repository?
 
