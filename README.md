@@ -17,6 +17,8 @@ This repository contains the top-level documents for the PUNCH mission's work on
 - [Current versions of PUNCH-authored packages used in data production.](requirements_PUNCH.txt)
 - [Compatibility among PUNCH packages](compatibility.md)
 
+> [!TIP]
+> [punchbowl](https://github.com/punch-mission/punchbowl) is the main calibration code for PUNCH. It's a good starting point for understanding PUNCH data.
 
 ## Where can I ask questions?
 
