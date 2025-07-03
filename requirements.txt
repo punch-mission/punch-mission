@@ -29,7 +29,7 @@ scikit-learn==1.5.2
 scikit-image==0.24.0
 scipy==1.14.1
 sep==1.4.1
-setuptools==75.1.0
+setuptools==78.1.1
 sqlalchemy==2.0.36
 sunkit_image==0.6.0
 sunpy[all]==6.0.3
