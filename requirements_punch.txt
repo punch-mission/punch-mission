@@ -2,5 +2,5 @@ punchbowl==0.0.16
 punchpipe===0.0.10
 regularizepsf==1.0.2
 thuban==0.0.8
-solpolpy==0.4.0
+solpolpy==0.4.1
 simpunch==0.0.3
