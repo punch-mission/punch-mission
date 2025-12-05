@@ -1,5 +1,5 @@
 punchbowl==0.0.19
 punchpipe===0.0.13
-regularizepsf==1.1.0
+regularizepsf==1.1.1
 solpolpy==0.5.0
 simpunch==0.0.3
