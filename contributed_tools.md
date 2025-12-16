@@ -1,9 +1,9 @@
 # Contributed Tools
 
-These are software tools related to PUNCH data that are contributed by the scientific community at large. 
+These are analysis tools related to PUNCH data that are contributed by the scientific community at large. 
 They are not developed or maintained by the SOC. 
 
-**If you have PUNCH-related software, please open an issue or pull request to get it added here.**
+**If you have PUNCH-related tools, please open an issue or pull request to get it added here.**
 
 | Name  | Link |  Description | Language |
 | ------------- | ------------- |  ---- | ----- | 
