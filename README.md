@@ -14,7 +14,7 @@ This repository contains the top-level documents for the PUNCH mission's work on
 - [Repository Index](repository_index.md)
 - [Contributed Tools](contributed_tools.md)
 - [A project wide requirements.txt that pins dependencies](requirements.txt) (This is what we run when producing data.)
-- [Current versions of PUNCH-authored packages used in data production.](requirements_PUNCH.txt)
+- [Current versions of PUNCH-authored packages used in data production.](requirements_punch.txt)
 - [Compatibility among PUNCH packages](compatibility.md)
 
 > [!TIP]
