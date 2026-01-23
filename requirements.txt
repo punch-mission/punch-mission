@@ -1,4 +1,3 @@
-astroscrappy==1.2.0
 astropy==6.1.4
 ccsdspy==1.3.2
 click==8.1.7
@@ -9,19 +8,17 @@ h5py==3.12.1
 joblib==1.4.2
 lmfit==1.3.2
 matplotlib==3.9.2
-ndcube==2.2.4
+ndcube==2.3.1
 networkx==3.4.2
 numexpr==2.10.2
 numpy==2.1.2
 pandas==2.2.3
 photutils==1.13.0
 plotly==5.24.1
-prefect[sqlalchemy, dask]==3.2.9
-pydantic==2.9.2
+prefect[sqlalchemy, dask]==3.6.6
+pydantic==2.11.7
 pylibjpeg[libjpeg, openjpeg]==2.0.1
-pymysql==1.1.1
 python-dateutil==2.9.0
-pyyaml==6.0.2
 quadprog==0.1.12
 remove_starfield==0.0.4
 reproject==0.14.0
