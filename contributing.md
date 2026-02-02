@@ -8,7 +8,7 @@ There are numerous ways to contribute to the PUNCH mission: providing code and d
 
 ### Code contributions and pull requests
 
-If you're contributing code, we recommend reading [our project-wide evelopment guide](https://github.com/punch-mission/punch-mission/blob/main/development.md>).
+If you're contributing code, we recommend reading [our project-wide development guide](https://github.com/punch-mission/punch-mission/blob/main/development.md>).
 
 The Science Operations Center (SOC) has developed the PUNCH software to conform to high development standards. However, new innovations, better calibration, and bugs are inevitable, some of which the SOC may not identify. You can help the SOC and the user community in general by helping to identify such issues and improve them.
 
