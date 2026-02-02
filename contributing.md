@@ -36,6 +36,8 @@ The SOC has developed user guides and development documents to help users naviga
 
 Examples are a powerful way that people learn how to use code. The SOC will provide extensive user examples as part of the development process, but users may use data reduction code and use cases in ways that the SOC did not plan. As such, additional examples, suggestions for new examples, or suggestions to clarify existing examples will help the PUNCH user community and are welcomed by the PUNCH team.
 
+When developing example notebooks to share, try to keep each notebook focused in scope to one particular use case. This helps with organization / user parsing of notebooks, and also with the overall notebook build time. For existing examples of notebook formatting, see the [punchbowl example gallery](https://punchbowl.readthedocs.io/en/latest/auto_examples/index.html) and the corresponding [punchbowl example code](https://github.com/punch-mission/punchbowl/tree/main/examples). For general best practices in notebook development, we recommend the [SunPy example contribution guidelines](https://docs.sunpy.org/en/latest/dev_guide/contents/example_gallery.html).
+
 ### Sharing Ideas & Suggestions
 
 You do not have to write new code or documentation to contribute. Simply suggesting an idea in our discussions or issues sections on a repository is tremendously helpful.
