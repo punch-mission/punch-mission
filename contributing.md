@@ -8,7 +8,7 @@ There are numerous ways to contribute to the PUNCH mission: providing code and d
 
 ### Code contributions and pull requests
 
-If you're contributing code, we recommend reading [our project-wide evelopment guide](https://github.com/punch-mission/punch-mission/blob/main/development.md>).
+If you're contributing code, we recommend reading [our project-wide development guide](https://github.com/punch-mission/punch-mission/blob/main/development.md>).
 
 The Science Operations Center (SOC) has developed the PUNCH software to conform to high development standards. However, new innovations, better calibration, and bugs are inevitable, some of which the SOC may not identify. You can help the SOC and the user community in general by helping to identify such issues and improve them.
 
@@ -35,6 +35,8 @@ The SOC has developed user guides and development documents to help users naviga
 ### Example usage contributions
 
 Examples are a powerful way that people learn how to use code. The SOC will provide extensive user examples as part of the development process, but users may use data reduction code and use cases in ways that the SOC did not plan. As such, additional examples, suggestions for new examples, or suggestions to clarify existing examples will help the PUNCH user community and are welcomed by the PUNCH team.
+
+When developing example notebooks to share, try to keep each notebook focused in scope to one particular use case. This helps with organization / user parsing of notebooks, and also with the overall notebook build time. For existing examples of notebook formatting, see the [punchbowl example gallery](https://punchbowl.readthedocs.io/en/latest/auto_examples/index.html) and the corresponding [punchbowl example code](https://github.com/punch-mission/punchbowl/tree/main/examples). For general best practices in notebook development, we recommend the [SunPy example contribution guidelines](https://docs.sunpy.org/en/latest/dev_guide/contents/example_gallery.html).
 
 ### Sharing Ideas & Suggestions
 
