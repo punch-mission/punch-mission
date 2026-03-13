@@ -1,4 +1,4 @@
 punchbowl==0.0.21
 regularizepsf==1.1.2
-solpolpy==0.5.2
+solpolpy==0.6.0
 simpunch==0.0.3
