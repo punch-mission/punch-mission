@@ -29,7 +29,7 @@ sep==1.4.1
 setuptools==78.1.1
 sqlalchemy==2.0.36
 sunkit_image==0.6.0
-sunpy[all]==6.0.3
+sunpy[all]==6.1
 toml==0.10.2
 tqdm==4.66.6
 xlrd==2.0.1
