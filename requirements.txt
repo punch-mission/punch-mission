@@ -17,7 +17,7 @@ numpy==2.2.6
 pandas==2.2.3
 photutils==2.2.0
 plotly==6.0.1
-prefect[sqlalchemy, dask]==3.6.16
+prefect[sqlalchemy, dask]==3.6.28.dev2
 pydantic==2.11.7
 pylibjpeg[libjpeg, openjpeg]==2.0.1
 python-dateutil==2.9.0
