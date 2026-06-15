@@ -24,6 +24,9 @@ It is advised to develop and test in virtual environments. A virtual environment
 By developing in a virtual environment as opposed to a global environment, you can avoid package dependency conflicts being a source of your errors. 
 You can also experiment with updating to newer versions of packages and see if they are compatible with your code. 
 
+Note that most Python IDEs will manage virtual environments for you, preventing you from having to manually execute these commands. 
+
+### Virtual environment using venv
 To create and activate a virtual environment run:
 
 ```sh
@@ -33,7 +36,34 @@ source my_venv_name/bin/activate
 
 When you're finished working in this virtual environment, run `deactivate`. 
 
-Note that most Python IDEs will manage virtual environments for you, preventing you from having to manually execute these commands. 
+### Virtual environment using uv
+
+After navigating to the Github project folder, 
+- Set up your Python virtual environment
+  - To use the current stable Python version, run:
+    ```bash 
+    uv venv
+    ```
+  - To choose the Python version (e.g., 3.11), run:
+    ```bash 
+    uv venv --python 3.11
+    ```
+    - Note that uv will install the requested Python version if it is not currently available on your machine
+    
+
+- Activate your new virtual environment
+    ```bash 
+    source .venv/bin/activate
+    ```
+- Install the package and its dependencies
+  - For developers, run: 
+    ```bash 
+    uv pip install -e ".[dev]"
+    ```
+    - Note that this will install both the required and optional dependencies in editable mode
+
+When you're finished working in this virtual environment, run `deactivate`. 
+
 
 ## Testing code
 
