@@ -24,13 +24,36 @@ It is advised to develop and test in virtual environments. A virtual environment
 By developing in a virtual environment as opposed to a global environment, you can avoid package dependency conflicts being a source of your errors. 
 You can also experiment with updating to newer versions of packages and see if they are compatible with your code. 
 
+### Virtual environment using uv (recommended)
+To create and activate a virtual environment, run: 
+
+```sh
+uv sync
+```
+Note that this option installs the PUNCH packages in editable mode, where changes made to the source code in those packages are immediately reflected without reinstalling. 
+Users who do not want this feature can instead create the virtual environment with editing disabled by running: 
+```sh
+uv sync --no-editable
+```
+
+To activate the virtual environment, run: 
+```sh
+source .venv/bin/activate
+```
+
+When you're finished working in this virtual environment, run `deactivate`. 
+
+### Virtual environment using venv
 To create and activate a virtual environment run:
 
 ```sh
 python -m venv my_venv_name
 source my_venv_name/bin/activate
 ```
-
+To add the required dependencies, run: 
+```sh
+pip install .
+```
 When you're finished working in this virtual environment, run `deactivate`. 
 
 Note that most Python IDEs will manage virtual environments for you, preventing you from having to manually execute these commands. 
