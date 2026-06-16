@@ -2,6 +2,10 @@
 
 We welcome all contributions to PUNCH. There might be a little voice inside that tells you you're not ready; that you need to do one more tutorial, or learn another framework, or read a few more blog posts before you can help with this project. That's not the case. Your contributions are valuable and can help improve the software and resulting science. If you ever have concerns, please reach out in [our discussions](https://github.com/orgs/punch-mission/discussions).
 
+## What about AI contributions? 
+
+We follow the SunPy [AI usage policy](https://docs.sunpy.org/en/latest/dev_guide/contents/ai_usage.html). We don't completely prohibit using AI as an assistant when programming for PUNCH, but we do not accept fully AI-generated code. You are responsible for your contributions and must understand them for discussion during review. Good coding practices of small, focused pull requests are required. We strongly believe "Any contribution should be worth more to the project than the effort required to review it" as stated in the SunPy policy. Please state how AI was used in your pull request. If you have questions about whether your usage is permitted, open a GitHub discussion or email us at punch_soc@swri.org. 
+
 ## Types of Contributions
 
 There are numerous ways to contribute to the PUNCH mission: providing code and documentation, suggesting and discussing ideas, submitting issues and bug reports, providing working examples and engaging with the broader solar physics, heliophysics, and instrument calibration communities. **We need you** - All code and documentation improvements, suggestions and discussions are valuable to the PUNCH mission and the wider community. **If you have an issue, you can be sure others will have similar issues.**
