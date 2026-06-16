@@ -3,7 +3,7 @@ name = "punch-mission"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13,<3.14"
 dependencies = [
     "astrometry==4.3.0",
     "astropy==7.0.1",
