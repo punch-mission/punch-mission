@@ -24,6 +24,9 @@ It is advised to develop and test in virtual environments. A virtual environment
 By developing in a virtual environment as opposed to a global environment, you can avoid package dependency conflicts being a source of your errors. 
 You can also experiment with updating to newer versions of packages and see if they are compatible with your code. 
 
+While you can create environments for the individual PUNCH packages using their respective pyproject.toml files, for most users we recommend creating a common environment using the instructions below. 
+This provides a single environment through which the dependencies of all the PUNCH packages can be managed. 
+
 ### Virtual environment using uv (recommended)
 To create and activate a virtual environment, run: 
 
@@ -36,9 +39,13 @@ Users who do not want this feature can instead create the virtual environment wi
 uv sync --no-editable
 ```
 
-To activate the virtual environment, run: 
+To activate the virtual environment on Mac or Linux, run: 
 ```sh
 source .venv/bin/activate
+```
+or for Windows, run: 
+```sh
+.venv\Scripts\activate
 ```
 
 When you're finished working in this virtual environment, run `deactivate`. 
