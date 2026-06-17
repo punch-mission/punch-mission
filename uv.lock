@@ -2355,6 +2355,30 @@ wheels = [
 ]
 
 [[package]]
+name = "numpy-quaternion"
+version = "2024.0.13"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/63/a0/dad368bca6ef25e2c242fe9a774ee46143d2ab186c521fdc5342e95291a4/numpy_quaternion-2024.0.13.tar.gz", hash = "sha256:e155853fefdfb972b4674f47c30ddb12c825f3ab135a2ea14c67472905c49fd1", size = 66645, upload-time = "2025-11-24T18:51:56.73Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/83/60/135ab1c887344d4f1e70a4025733b2e9e19f2349ac21106b713911620a40/numpy_quaternion-2024.0.13-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:0cd3f2256debaffd8407d1829c1ced71d3b910e75245152d1be673fcb7f23f08", size = 86875, upload-time = "2025-11-24T18:51:37.313Z" },
+    { url = "https://files.pythonhosted.org/packages/4f/0b/26ba2dbfe74da3a956828dee249483fdb90d0f1b08b2a55872ff20e12736/numpy_quaternion-2024.0.13-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:070df97e1ad59d6a41b4759ddba53e214488de63c948f144c3c61c9374a64f8d", size = 61668, upload-time = "2025-11-24T18:51:57.82Z" },
+    { url = "https://files.pythonhosted.org/packages/af/2b/bb67708f88beea90bddc74229ac7eaa1d9c38c7415179e16a6cba013f5b3/numpy_quaternion-2024.0.13-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:87f062c9258baa5c00ee3dc8c90553314668551d8893d500e101eae25fc4826f", size = 55901, upload-time = "2025-11-24T18:51:50.39Z" },
+    { url = "https://files.pythonhosted.org/packages/fe/21/562f81ebae486f6068c12a2be7523c08c2a21110ed0773a1d38088248109/numpy_quaternion-2024.0.13-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:b5596e429f3c15d736f23380c7d054903e44fdd4d07a2b9af6f75ec6c9acfe4c", size = 190859, upload-time = "2025-11-24T18:51:47.196Z" },
+    { url = "https://files.pythonhosted.org/packages/2e/c4/3fe4f7957d6d79d508ff99a62951034bd19956f4d2c98ada26d5575ff3cc/numpy_quaternion-2024.0.13-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:1771afd3abe8477adc0af1fe7b2542eaebf31fafa64a134059e21f8b606d2f0e", size = 185263, upload-time = "2025-11-24T18:51:38.218Z" },
+    { url = "https://files.pythonhosted.org/packages/fb/cc/88846e576745bb962790d3a6581963a0b248a9335a800f601dc52fecd258/numpy_quaternion-2024.0.13-cp313-cp313-win_amd64.whl", hash = "sha256:a8a847a3dbce1dbb4275d6e01ce59ac876da142affb82e6d66814fc1db3f4793", size = 70267, upload-time = "2025-11-24T18:52:15.42Z" },
+    { url = "https://files.pythonhosted.org/packages/77/77/77e84011dbe4bb08504e45052d7177efeed90cc66139922b6de467a9a4a3/numpy_quaternion-2024.0.13-cp313-cp313t-macosx_10_13_universal2.whl", hash = "sha256:eb438f4d9ab1fd1697f884be0840944d0c55dd934065811473237451b96ec2e2", size = 87811, upload-time = "2025-11-24T18:51:39.625Z" },
+    { url = "https://files.pythonhosted.org/packages/bc/3b/343695fc743d2a0814ef9a221a52733c576abe08d17f3795e5b84bfa8355/numpy_quaternion-2024.0.13-cp313-cp313t-macosx_10_13_x86_64.whl", hash = "sha256:e0a299e25b6d874b4cd169afd0cf4b703a4ddc8817513eb425fa5a6488001116", size = 62102, upload-time = "2025-11-24T18:51:52.997Z" },
+    { url = "https://files.pythonhosted.org/packages/d8/c5/6a105c9a4ffbe3ec51cc45ed916f0a0d9aae35dc9a8dfd29e8cd66122043/numpy_quaternion-2024.0.13-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:41a84c60e50533f833c536475dc49bce4e53a5c100c639cf503f37216b49c8f8", size = 56447, upload-time = "2025-11-24T18:51:48.48Z" },
+    { url = "https://files.pythonhosted.org/packages/61/1b/17612dc0517f30ea2679de936975a5c6c827e299ddcbb2b7cc9471b3de10/numpy_quaternion-2024.0.13-cp313-cp313t-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:af4ee46bd834a822c200fb1dc8dc15bee8fa97e2286227fdd0acf243e6974fb9", size = 196462, upload-time = "2025-11-24T18:51:36.13Z" },
+    { url = "https://files.pythonhosted.org/packages/ef/08/57ea9c58700211ef7ecbb30ee3bb076c9f9a4f12595f270b4cf5ea2da1e9/numpy_quaternion-2024.0.13-cp313-cp313t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:77a6c9c10de8636cf3b7706045ef21edfc09746f73d4adb883b525ddcb19823a", size = 193631, upload-time = "2025-11-24T18:52:09.318Z" },
+    { url = "https://files.pythonhosted.org/packages/98/3b/f97ce15668d29ad79d7a34a5e3fecec8d1c22b713a7ade07ffa74aa0f952/numpy_quaternion-2024.0.13-cp313-cp313t-win_amd64.whl", hash = "sha256:9700dd4c9a2ca19890a1fcfb559e738b3d824ec8224e400eb146240cac03b0f7", size = 71032, upload-time = "2025-11-24T18:51:43.766Z" },
+]
+
+[[package]]
 name = "oauthlib"
 version = "3.3.1"
 source = { registry = "https://pypi.org/simple" }
@@ -2853,6 +2877,7 @@ dependencies = [
     { name = "numba" },
     { name = "numexpr" },
     { name = "numpy" },
+    { name = "numpy-quaternion" },
     { name = "pandas" },
     { name = "photutils" },
     { name = "plotly" },
@@ -2860,6 +2885,7 @@ dependencies = [
     { name = "punchbowl" },
     { name = "pydantic" },
     { name = "pylibjpeg", extra = ["libjpeg", "openjpeg"] },
+    { name = "pymysql" },
     { name = "python-dateutil" },
     { name = "regularizepsf" },
     { name = "remove-starfield" },
@@ -2901,6 +2927,7 @@ requires-dist = [
     { name = "numba", specifier = "==0.61.2" },
     { name = "numexpr", specifier = "==2.10.2" },
     { name = "numpy", specifier = "==2.2.6" },
+    { name = "numpy-quaternion", specifier = "==2024.0.13" },
     { name = "pandas", specifier = "==2.2.3" },
     { name = "photutils", specifier = "==2.2.0" },
     { name = "plotly", specifier = "==6.0.1" },
@@ -2908,6 +2935,7 @@ requires-dist = [
     { name = "punchbowl", editable = "../punchbowl" },
     { name = "pydantic", specifier = "==2.11.7" },
     { name = "pylibjpeg", extras = ["libjpeg", "openjpeg"], specifier = "==2.0.1" },
+    { name = "pymysql", specifier = "==1.2.0" },
     { name = "python-dateutil", specifier = "==2.9.0" },
     { name = "regularizepsf", editable = "../regularizepsf" },
     { name = "remove-starfield", specifier = "==0.1" },
@@ -3281,6 +3309,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/31/8c/2005b2f3953153a0bcde3339cb3f65546d5715418b92cc6ccd6c0613b0cd/pylibjpeg_openjpeg-2.5.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:d7e8dd2e1d289d6d1cdc0e9b2df2021277052f72cdabe63771b0ca3ab3b6cc4b", size = 1965708, upload-time = "2025-08-19T01:13:33.141Z" },
     { url = "https://files.pythonhosted.org/packages/1e/8e/ba9b4d2f883d13d323c7dfc081c716e638ddb9a026e6819892f59d859673/pylibjpeg_openjpeg-2.5.0-cp313-cp313-win32.whl", hash = "sha256:8e8ae039f344729ff1d83fbf9ddf5ea92db9adc5ed5acda225ba95bfac386d2c", size = 300526, upload-time = "2025-08-19T01:13:34.817Z" },
     { url = "https://files.pythonhosted.org/packages/83/1a/a32da70df35af6cef2f594aa8609397adf06ac4ed737bbec8ed58421cd8d/pylibjpeg_openjpeg-2.5.0-cp313-cp313-win_amd64.whl", hash = "sha256:c25f623299b853917857738500bafa0d1315fc1a7149822a7e27f4bb64cec0a9", size = 350631, upload-time = "2025-08-19T01:13:36.089Z" },
+]
+
+[[package]]
+name = "pymysql"
+version = "1.2.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/c9/bc/1c6a92f385940f727daeecf3bacaf186e03875dff57197801046c583bcf0/pymysql-1.2.0.tar.gz", hash = "sha256:6c7b17ca686988104d7426c27895b455cdeea3e9d3ceb1270f0c3704fead8c33", size = 49021, upload-time = "2026-05-19T08:26:22.302Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c4/bd/2534e130295c8cfd4f0a2e31623baab7502278f1e97bcfe61db75656a77f/pymysql-1.2.0-py3-none-any.whl", hash = "sha256:62169ce6d5510f08e140c5e7990ee884a9764024e4a9a27b2cc11f1099322ae0", size = 45716, upload-time = "2026-05-19T08:26:20.974Z" },
 ]
 
 [[package]]
