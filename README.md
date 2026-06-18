@@ -33,7 +33,6 @@ The main documentation is on [ReadTheDocs for punchbowl](https://punchbowl.readt
 ## Setting up the PUNCH environment
 
 1. Clone this repository on your local machine.
-2. TODO; The behavior we want from uv to allow complementary installs (based on if you are a developer or a user) is currently not implemented... (https://github.com/astral-sh/uv/pull/18272)
-3. Create a virtual environment in Python using `uv` with `uv sync --no-editable`.
-4. Activate the virtual environment with `source .venv/bin/activate` on Mac/Linux or `.venv\Scripts\activate` on Windows.
-5. Explore some data!
+2. Create a virtual environment in Python using `uv` with `uv sync --no-sources --no-dev` (super users who want to install optional-dependencies, use `uv sync --no-sources --no-dev --all-extras`)
+3. Activate the virtual environment with `source .venv/bin/activate` on Mac/Linux or `.venv\Scripts\activate` on Windows.
+4. Explore some data!

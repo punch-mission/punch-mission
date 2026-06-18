@@ -33,12 +33,24 @@ To create and activate a virtual environment, run:
 ```sh
 uv sync
 ```
-Note that this option installs the PUNCH packages in editable mode, where changes made to the source code in those packages are immediately reflected without reinstalling. 
-Users who do not want this feature can instead create the virtual environment with editing disabled by running: 
-```sh
-uv sync --no-editable
-```
+This will automatically install the "dev" dependencies (e.g., testing and document building tools). 
+Note that this option installs the PUNCH packages in editable mode, where changes made to the source code in those packages are immediately reflected without reinstalling.
 
+By default, the pyproject.toml file has been configured to load your local installations of the PUNCH software packages
+(punchbowl, regularizepsf, solpolpy, and simpunch). The configuration assumes that these packages are installed locally 
+at the same directory level as the punch-mission repo is installed. See optional flags below if you would like to use the
+PyPi versions of these packages rather than your local installations. 
+
+#### Optional flags
+1. Developers who do not the packages loaded in editable mode feature can instead create the virtual environment with editing disabled by adding
+the `--no-editable` flag to the command above.
+
+2. For developers who would like to install without the "dev" dependencies should add the `--no-dev` flag.
+
+3. For developers who would like to use the PyPi installations of the PUNCH software packages should add the 
+`--no-sources` flag. 
+
+#### Activating the environment
 To activate the virtual environment on Mac or Linux, run: 
 ```sh
 source .venv/bin/activate
