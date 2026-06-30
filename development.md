@@ -69,11 +69,26 @@ To create and activate a virtual environment run:
 python -m venv my_venv_name
 source my_venv_name/bin/activate
 ```
-To add the required dependencies, run: 
 ```sh
-pip install .
+pip install -e .
+```
+
+
+To add the required dependencies (suyper-user) 
+```sh
+pip install -e ".[dev]"
 ```
 When you're finished working in this virtual environment, run `deactivate`. 
+
+To install the dev dependency group (PUNCH SOC developers)
+```
+pip install --group dev -e .
+```
+
+```
+pip install -e punchbowl/ -e solpolpy/ -e regularizepsf/ -e simpunch/
+```
+This assumes that these packages live at the current directory level that you are running the pip commands.
 
 Note that most Python IDEs will manage virtual environments for you, preventing you from having to manually execute these commands. 
 
