@@ -37,8 +37,8 @@ This will automatically install the "dev" dependencies (e.g., testing and docume
 Note that this option installs the PUNCH packages in editable mode, where changes made to the source code in those packages are immediately reflected without reinstalling.
 
 By default, the pyproject.toml file has been configured to load your local installations of the PUNCH software packages
-(punchbowl, regularizepsf, solpolpy, and simpunch). The configuration assumes that these packages are installed locally 
-at the same directory level as the punch-mission repo is installed. See optional flags below if you would like to use the
+(punchbowl, regularizepsf, solpolpy, and simpunch). The configuration assumes that these packages are cloned locally 
+at the same directory level as the punch-mission repository. See optional flags below if you would like to use the
 PyPi versions of these packages rather than your local installations. 
 
 #### Optional flags
@@ -67,30 +67,28 @@ To create and activate a virtual environment run:
 
 ```sh
 python -m venv my_venv_name
-source my_venv_name/bin/activate
+source .my_venv_name/bin/activate
 ```
-```sh
-pip install -e .
-```
+This creates a clear Python environment from which you can use pip to install the project environment. 
+You can then use `pip install` to set up the environment. Several install options are listed below.
+Note that the pip install defaults are logically inverted from the uv install. 
+
+#### Pip install options
+There are several install options depending on your development needs: 
+1. To install as PUNCH-lite, run `pip install -e .`
+2. To install the optional "super-user" requirements, run `pip install -e ".[super-user]"`
+3. For developers who would like to install the "dev" dependencies, run `pip install --group dev -e ".[super-user]"`
+
+For developers who would like to use local and editable installations of the PUNCH software packages, rather than the 
+PyPi packages, run the following command after running one of the install commands from the list above 
+`pip install -e punchbowl/ -e solpolpy/ -e regularizepsf/ -e simpunch/`. Note that you will need to run this command at 
+the directory level where these packages are cloned.
+As with the uv installation instructions, this command assumes that these packages are cloned locally at the same 
+directory level as the punch-mission repository.  
 
 
-To add the required dependencies (suyper-user) 
-```sh
-pip install -e ".[dev]"
-```
-When you're finished working in this virtual environment, run `deactivate`. 
+When you are finished using the virtual environment, run `deactivate`. 
 
-To install the dev dependency group (PUNCH SOC developers)
-```
-pip install --group dev -e .
-```
-
-```
-pip install -e punchbowl/ -e solpolpy/ -e regularizepsf/ -e simpunch/
-```
-This assumes that these packages live at the current directory level that you are running the pip commands.
-
-Note that most Python IDEs will manage virtual environments for you, preventing you from having to manually execute these commands. 
 
 ## Testing code
 
