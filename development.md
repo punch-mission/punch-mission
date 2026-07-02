@@ -42,7 +42,7 @@ at the same directory level as the punch-mission repository. See optional flags 
 PyPi versions of these packages rather than your local installations. 
 
 #### Optional flags
-1. Developers who do not the packages loaded in editable mode feature can instead create the virtual environment with editing disabled by adding
+1. Developers who do not want the packages loaded in editable mode feature can instead create the virtual environment with editing disabled by adding
 the `--no-editable` flag to the command above.
 
 2. For developers who would like to install without the "dev" dependencies should add the `--no-dev` flag.
