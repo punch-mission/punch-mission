@@ -35,6 +35,7 @@ uv sync --all-extras
 ```
 This will automatically install the "dev" dependencies (e.g., testing and document building tools). 
 Note that this option installs the PUNCH packages in editable mode, where changes made to the source code in those packages are immediately reflected without reinstalling.
+When using a Jupyter notebook, the changes will be reflected after manual reload.
 
 By default, the pyproject.toml file has been configured to load your local installations of the PUNCH software packages
 (punchbowl, regularizepsf, solpolpy, and simpunch). The configuration assumes that these packages are cloned locally 
