@@ -42,7 +42,7 @@ The main documentation is on [ReadTheDocs for punchbowl](https://punchbowl.readt
 ### Using venv
 1. Clone this repository on your local machine
 2. Create a virtual environment in Python using `python -m venv my_venv_name`
-3. Activate the virtual environment by running `source .my_venv_name/bin/activate` on Mac/Linux or `.venv\Scripts\activate` on Windows.
+3. Activate the virtual environment by running `source my_venv_name/bin/activate` on Mac/Linux or `my_venv_name\Scripts\activate` on Windows.
 4. Install the project environment dependencies by running `pip install .`
    (super users who want to install optional-dependencies, use `pip install -e ".[super-user]"`)
 5. Explore some data!

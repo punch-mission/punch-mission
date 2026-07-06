@@ -31,7 +31,7 @@ This provides a single environment through which the dependencies of all the PUN
 To create and activate a virtual environment, run: 
 
 ```sh
-uv sync
+uv sync --all-extras
 ```
 This will automatically install the "dev" dependencies (e.g., testing and document building tools). 
 Note that this option installs the PUNCH packages in editable mode, where changes made to the source code in those packages are immediately reflected without reinstalling.
@@ -50,6 +50,8 @@ the `--no-editable` flag to the command above.
 3. For developers who would like to use the PyPi installations of the PUNCH software packages should add the 
 `--no-sources` flag. 
 
+note: need fastapi == 0.136.0 do to issue with prefect
+
 #### Activating the environment
 To activate the virtual environment on Mac or Linux, run: 
 ```sh
@@ -67,11 +69,11 @@ To create and activate a virtual environment run:
 
 ```sh
 python -m venv my_venv_name
-source .my_venv_name/bin/activate
+source my_venv_name/bin/activate
 ```
 This creates a clear Python environment from which you can use pip to install the project environment. 
 You can then use `pip install` to set up the environment. Several install options are listed below.
-Note that the pip install defaults are logically inverted from the uv install. 
+Note that the pip install defaults are logically inverted from the uv install (that is, `uv` does a full install by default, while `pip` does a minimal install by default.)
 
 #### Pip install options
 There are several install options depending on your development needs: 
