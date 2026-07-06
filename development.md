@@ -28,7 +28,7 @@ While you can create environments for the individual PUNCH packages using their 
 This provides a single environment through which the dependencies of all the PUNCH packages can be managed. 
 
 ### Virtual environment using uv (recommended)
-To create and activate a virtual environment, run: 
+To create and activate a virtual environment, run the following command in your local cloned punchbowl repository: 
 
 ```sh
 uv sync --all-extras
@@ -38,19 +38,15 @@ Note that this option installs the PUNCH packages in editable mode, where change
 
 By default, the pyproject.toml file has been configured to load your local installations of the PUNCH software packages
 (punchbowl, regularizepsf, solpolpy, and simpunch). The configuration assumes that these packages are cloned locally 
-at the same directory level as the punch-mission repository. See optional flags below if you would like to use the
+at the same directory level as the punchbowl repository. See optional flags below if you would like to use the
 PyPi versions of these packages rather than your local installations. 
 
 #### Optional flags
-1. Developers who do not want the packages loaded in editable mode feature can instead create the virtual environment with editing disabled by adding
-the `--no-editable` flag to the command above.
-
-2. For developers who would like to install without the "dev" dependencies should add the `--no-dev` flag.
-
+1. To install a minimal dependency environment (PUNCH-lite), run use `uv sync --no-sources --no-dev --all-extras`)
+2. To disable loading packages in editable mode, add the `--no-editable` flag to the `uv sync` command above
+2. To install without the "dev" dependencies, add the `--no-dev` flag to the `uv sync` command above
 3. For developers who would like to use the PyPi installations of the PUNCH software packages should add the 
-`--no-sources` flag. 
-
-note: need fastapi == 0.136.0 do to issue with prefect
+`--no-sources` flag.
 
 #### Activating the environment
 To activate the virtual environment on Mac or Linux, run: 
@@ -65,7 +61,7 @@ or for Windows, run:
 When you're finished working in this virtual environment, run `deactivate`. 
 
 ### Virtual environment using venv
-To create and activate a virtual environment run:
+To create and activate a virtual environment, run the following command in your local cloned punchbowl repository: :
 
 ```sh
 python -m venv my_venv_name
@@ -75,18 +71,20 @@ This creates a clear Python environment from which you can use pip to install th
 You can then use `pip install` to set up the environment. Several install options are listed below.
 Note that the pip install defaults are logically inverted from the uv install (that is, `uv` does a full install by default, while `pip` does a minimal install by default.)
 
-#### Pip install options
-There are several install options depending on your development needs: 
-1. To install as PUNCH-lite, run `pip install -e .`
-2. To install the optional "super-user" requirements, run `pip install -e ".[super-user]"`
-3. For developers who would like to install the "dev" dependencies, run `pip install --group dev -e ".[super-user]"`
-
+To install the "dev" dependencies with all optional dependencies, run `pip install --group dev -e ".[super-user]"`. 
 For developers who would like to use local and editable installations of the PUNCH software packages, rather than the 
 PyPi packages, run the following command after running one of the install commands from the list above 
-`pip install -e punchbowl/ -e solpolpy/ -e regularizepsf/ -e simpunch/`. Note that you will need to run this command at 
+`pip install -e solpolpy/ -e regularizepsf/ -e simpunch/`. Note that you will need to run this command at 
 the directory level where these packages are cloned.
 As with the uv installation instructions, this command assumes that these packages are cloned locally at the same 
-directory level as the punch-mission repository.  
+directory level as the punchbowl repository.  
+
+Additional install options are provided below: 
+#### Pip install options
+There are several install options depending on your development needs: 
+1. To install a minimal dependency environment (PUNCH-lite), run `pip install -e .`
+2. To install the optional "super-user" requirements and no "dev" dependencies, run `pip install -e ".[super-user]"`
+3. To disable loading packages in editable mode, remove the `-e` flag from the pip install commands
 
 
 When you are finished using the virtual environment, run `deactivate`. 
