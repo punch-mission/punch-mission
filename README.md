@@ -32,10 +32,5 @@ The main documentation is on [ReadTheDocs for punchbowl](https://punchbowl.readt
 
 ## Setting up the PUNCH environment
 
-1. Download the [requirements.txt](requirements.txt).
-2. Download the [PUNCH package list](requirements_punch.txt). 
-3. Create a virtual environment in Python using `venv` with `python -m venv .venv`
-4. Activate the virtual environment with `source .venv/bin/activate`.
-5. Install the dependencies with `pip install -r requirements.txt`
-6. Install the appropriate SOC-developed packages either manually from source or with `pip install -r requirements_PUNCH.txt`.
-7. Explore some data!
+The main documentation for setting up the PUNCH environment is on the [PUNCHbowl README](https://github.com/punch-mission/punchbowl/blob/main/README.md). 
+
