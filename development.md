@@ -27,6 +27,10 @@ You can also experiment with updating to newer versions of packages and see if t
 While you can create environments for the individual PUNCH packages using their respective pyproject.toml files, for most users we recommend creating a common environment using the instructions below. 
 This provides a single environment through which the dependencies of all the PUNCH packages can be managed. 
 
+In addition to setting up the environment, you will also need to set up pre-commit so that it will analyze your staged files. 
+To do this, run `pre-commit install` in the punchbowl, solpolpy, and regularizepsf repositories after setting up your environment. 
+This step should only need to be done once after installing the environment.
+
 ### Virtual environment using uv (recommended)
 To create and activate a virtual environment, run the following command in your local cloned punchbowl repository: 
 
